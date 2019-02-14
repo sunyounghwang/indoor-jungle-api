@@ -15,6 +15,26 @@ class API::PlantsController < ApplicationController
     end
   end
 
+  def show
+    render json: @plant
+  end
+
+  def update
+    if @plant.update(plant_params)
+      render json: @plant
+    else
+      render json: { message: @plant.errors }, status: 400
+    end
+  end
+
+  def destroy
+    if @plant.destroy
+      render status: 204
+    else
+      render json: { message: "Unable to delete this plant" }, status: 400
+    end
+  end
+
   private
 
   def plant_params

@@ -1,4 +1,6 @@
 class API::PlantsController < ApplicationController
+  before_action :set_plant, only: [:show, :update, :destroy]
+
   def index
     render json: Plant.all
   end
@@ -17,5 +19,13 @@ class API::PlantsController < ApplicationController
 
   def plant_params
     params.require(:plant).permit(:name, :type_of, :location, :start_date, :img_url, :notes)
+  end
+
+  def set_plant
+    @plant = Plant.find_by(id: params[:id])
+
+    unless @plant
+      render json: { message: "Unable to find this plant" }, status: 400
+    end
   end
 end

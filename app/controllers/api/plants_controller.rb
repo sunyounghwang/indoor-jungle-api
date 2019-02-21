@@ -28,8 +28,10 @@ class API::PlantsController < ApplicationController
   end
 
   def destroy
+    id = @plant.id
+
     if @plant.destroy
-      render status: 204
+      render json: { id: id }, status: 200
     else
       render json: { message: "Unable to delete this plant" }, status: 400
     end

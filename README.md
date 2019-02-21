@@ -1,24 +1,18 @@
-# README
+# Indoor Jungle API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Indoor Jungle is a CRUD-based web app for your houseplants. Catalog your plants to keep better track of them and help your jungle thrive! This repository contains code for the Rails API used as Indoor Jungle's backend. To see client-side code, visit https://github.com/sunyounghwang/indoor_jungle_api.
 
-Things you may want to cover:
+## Installation & Usage
 
-* Ruby version
+* Fork & clone this repo
+* Run **bundle install**
+* Run **rake db:migrate**
+* Run **rails s** to start local server
 
-* System dependencies
+## Contributions
 
-* Configuration
+Bug reports and pull requests are welcome on GitHub at https://github.com/sunyounghwang/indoor_jungle_api. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-* Database creation
+## License
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Indoor Jungle API is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

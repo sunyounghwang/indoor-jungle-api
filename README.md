@@ -7,7 +7,7 @@ Indoor Jungle is a CRUD-based web app for your houseplants. Catalog your plants 
 * Fork & clone this repo
 * Run **bundle install**
 * Run **rake db:migrate**
-* Run **rails s** to start local server
+* Run **rails s -p 3001** to start local server
 
 ## Contributions
 

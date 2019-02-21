@@ -1,6 +1,6 @@
 # Indoor Jungle API
 
-Indoor Jungle is a CRUD-based web app for your houseplants. Catalog your plants to keep better track of them and help your jungle thrive! This repository contains code for the Rails API used as Indoor Jungle's backend. To see client-side code, visit https://github.com/sunyounghwang/indoor_jungle_api.
+Indoor Jungle is a CRUD-based web app for your houseplants. Catalog your plants to keep better track of them and help your jungle thrive! This repository contains code for the Rails API used as Indoor Jungle's backend. To see client-side code, visit https://github.com/sunyounghwang/indoor-jungle-client.
 
 ## Installation & Usage
 
@@ -11,7 +11,7 @@ Indoor Jungle is a CRUD-based web app for your houseplants. Catalog your plants 
 
 ## Contributions
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/sunyounghwang/indoor_jungle_api. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/sunyounghwang/indoor-jungle-api. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
